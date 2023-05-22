@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terzi.Form2">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="699" height="508"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="77113" class="javax.swing.JLabel" binding="bmw">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="bm31w-removebg-preview-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5afe5" class="javax.swing.JLabel" binding="mercedes">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="03e1b0207489ad32d10b9a860ffc6623-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="db536" class="javax.swing.JLabel" binding="ford">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="png-transparent-ford-motor-company-2012-ford-explorer-logo-ford-ranger-ford-emblem-trademark-logo-removebg-preview-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="995d4">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="671d0">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="be5f9" class="javax.swing.JLabel" binding="renault">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="73"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="renault-logo-png-5a388833db4d24.3850032615136543238983-removebg-preview-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9ed57" class="javax.swing.JLabel" binding="tesla">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="99"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="Tesla_T_symbol.svg-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1a28b" class="javax.swing.JLabel" binding="royce">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="rolls-royce-car-logo-11530960502gt4zkp0grd-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6edb8" class="javax.swing.JLabel" binding="hummer">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="26"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="png-clipart-アタックベース-9022-75-hummer極涼アームガード-brand-logo-cap-hummer-hat-text-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b5f96" class="javax.swing.JLabel" binding="bugatti">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="56"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="Bugatti-logo-2560x1440-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6c75f" class="javax.swing.JLabel" binding="porsche">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="porsche_logo_PNG1-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b1a04" class="javax.swing.JRadioButton" binding="BMWRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="BMW"/>
+        </properties>
+      </component>
+      <component id="3d943" class="javax.swing.JRadioButton" binding="fordRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Ford"/>
+        </properties>
+      </component>
+      <component id="9d327" class="javax.swing.JRadioButton" binding="mercedesBenzRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mercedes-Benz"/>
+        </properties>
+      </component>
+      <component id="916c9" class="javax.swing.JRadioButton" binding="renaultRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Renault"/>
+        </properties>
+      </component>
+      <component id="7c2ad" class="javax.swing.JRadioButton" binding="teslaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Tesla"/>
+        </properties>
+      </component>
+      <component id="cac85" class="javax.swing.JRadioButton" binding="rollsRoyceRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rolls-Royce"/>
+        </properties>
+      </component>
+      <component id="49431" class="javax.swing.JRadioButton" binding="hummerRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="122" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Hummer"/>
+        </properties>
+      </component>
+      <component id="c531a" class="javax.swing.JRadioButton" binding="bugattiRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="112" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Bugatti"/>
+        </properties>
+      </component>
+      <component id="481e6" class="javax.swing.JRadioButton" binding="porscheRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Porsche"/>
+        </properties>
+      </component>
+      <component id="37aff" class="javax.swing.JLabel" binding="baslik">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ADAMINDAN AŞ-&gt;MARKALAR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

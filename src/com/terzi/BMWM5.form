@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terzi.BMWM5">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="804" height="867"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="76908" class="javax.swing.JLabel" binding="baslik">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="BMW M5"/>
+        </properties>
+      </component>
+      <component id="27924" class="javax.swing.JLabel" binding="resim">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="m5büyük.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b7145" class="javax.swing.JLabel" binding="ozellik">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="ÖZELLİKLER:"/>
+        </properties>
+      </component>
+      <component id="c3a11" class="javax.swing.JLabel" binding="model">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font style="1"/>
+          <text value="MODEL:BMW M5 CS xDrive "/>
+        </properties>
+      </component>
+      <component id="3f4" class="javax.swing.JLabel" binding="yakit">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="YAKIT: BENZİN"/>
+        </properties>
+      </component>
+      <component id="a850e" class="javax.swing.JLabel" binding="vites">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="VİTES: OTOMATİK"/>
+        </properties>
+      </component>
+      <component id="4fca3" class="javax.swing.JLabel" binding="durum">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="ARAÇ DURUMU: İKİNCİ EL"/>
+        </properties>
+      </component>
+      <component id="d533b" class="javax.swing.JLabel" binding="cekis">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="ÇEKİŞ: 4WD&#10;"/>
+        </properties>
+      </component>
+      <component id="a6c6a" class="javax.swing.JLabel" binding="fiyat">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="FİYAT: 13.950.000 TL"/>
+        </properties>
+      </component>
+      <component id="2c746" class="javax.swing.JLabel" binding="aciklama">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="0"/>
+          <text value="VİTRİN GALERİ EN İYİSİ!!! 2. EL BMW M5 ,0 HASARLI "/>
+        </properties>
+      </component>
+      <component id="b3ac2" class="javax.swing.JButton" binding="SATINALButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SATIN AL"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

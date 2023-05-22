@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terzi.TeslaModelS">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="555" height="463"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="92e86" binding="PL" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="eb538">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="89fb6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TESLA MODEL S"/>
+            </properties>
+          </component>
+          <component id="5381a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/terzi/Teslamodels1 (1).jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a9fef" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/terzi/x5_10432697845oz (1).jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="67816" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Araç Özellikleri"/>
+            </properties>
+          </component>
+          <component id="aefa7" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Marka: Tesla"/>
+                <item value="Seri: Model S"/>
+                <item value="Otomatik Vites"/>
+                <item value="Elektirkli"/>
+                <item value="Siyah Renk"/>
+                <item value="Yıl: 2017"/>
+                <item value=""/>
+                <item value="Fiyat: 3.650.000 TL"/>
+                <item value="(pazarlık payı vardır, ölücüler aramasın)"/>
+                <item value=""/>
+                <item value="İrtibat No: +90 487 544 88 77"/>
+              </model>
+            </properties>
+          </component>
+          <component id="54931" class="javax.swing.JList" binding="list2" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Aracımızda gelişmiş multimedya sistemininin"/>
+                <item value="dışında koltuk ısıtma da mevcuttur."/>
+                <item value=""/>
+                <item value="Herhangi bir değişen ya da boya yoktur."/>
+                <item value="(Bildiğimiz kadar)"/>
+                <item value=""/>
+                <item value="Galericiden Galericiye..."/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="9240f" class="javax.swing.JButton" binding="satinal">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SATIN AL"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

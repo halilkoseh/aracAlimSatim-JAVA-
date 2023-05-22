@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terzi.BUGATTI_DIVO">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="566" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="5ced3" binding="bg" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="84c6d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="BUGATTI DIVO"/>
+            </properties>
+          </component>
+          <vspacer id="cd469">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="ab2fe" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/terzi/Bugatti_Divo,_GIMS_2019,_Le_Gran.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="48187" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Marka: Bugattı"/>
+                <item value="Seri: Divo"/>
+                <item value="Otomatik Vites"/>
+                <item value="Benzinli"/>
+                <item value="Siyah-mavi Renk"/>
+                <item value="Yıl: 2019"/>
+                <item value="1500 Hp"/>
+                <item value="Fosil kaynak tüketicisini satın almak için bize ulaşın..."/>
+                <item value=""/>
+                <item value=""/>
+                <item value="Fiyat:  $ 5.4 Million"/>
+                <item value=""/>
+                <item value=""/>
+                <item value="İrtibat No: +90 487 544 88 77"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ba75a" class="javax.swing.JButton" binding="satinal">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SATIN AL"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
