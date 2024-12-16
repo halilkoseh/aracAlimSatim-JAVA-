@@ -1,1 +1,1 @@
-Ayrıntılar için Sunum.pptx dosyasını inceleyebilirsiniz.
+Ayrıntılar için Sunum(1).pptx dosyasını inceleyebilirsiniz.
